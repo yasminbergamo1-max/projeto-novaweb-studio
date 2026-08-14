@@ -107,7 +107,7 @@ As atividades serão movimentadas entre as etapas conforme forem desenvolvidas, 
 
 
 # Estrutura do Projeto
-
+```text
 Livraria/
 │
 ├── assets/
@@ -138,3 +138,4 @@ Livraria/
 ├── Guia_de_Estilo_Inicial.md
 ├── index.html
 └── README.md
+```
