@@ -94,16 +94,14 @@ O cronograma foi organizado de acordo com as atividades apresentadas no quadro K
 
 As atividades serão movimentadas entre as etapas conforme forem desenvolvidas, revisadas e concluídas pela equipe
 
+
 # Wireframes
-
-### Página Home
-[Ver Wireframe da Home](docs/wireframes/home.png)
-
-### Página de Contato
-[Ver Wireframe de Contato](docs/wireframes/contato.png)
-
-### Página de Conteúdo
-[Ver Wireframe de Conteúdo](docs/wireframes/conteúdo.png)
+ 
+![Wireframe da Home](./Loja-virtual-de-roupas/docs/wireframes/home.png)
+ 
+![Wireframe de Produtos](./Loja-virtual-de-roupas/docs/wireframes/produtos.png)
+ 
+![Wireframe de Contato](./Loja-virtual-de-roupas/docs/wireframes/contato.png)
 
 
 # Estrutura do Projeto
