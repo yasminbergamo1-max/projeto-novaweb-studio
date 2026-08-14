@@ -97,11 +97,11 @@ As atividades serão movimentadas entre as etapas conforme forem desenvolvidas, 
 
 # Wireframes
  
-![Wireframe da Home](./Loja-virtual-de-roupas/docs/wireframes/home.png)
+![Wireframe da Home](./Livraria/docs/wireframes/home.png)
  
-![Wireframe de Produtos](./Loja-virtual-de-roupas/docs/wireframes/produtos.png)
+![Wireframe de Produtos](./Livraria/docs/wireframes/conteúdo.png)
  
-![Wireframe de Contato](./Loja-virtual-de-roupas/docs/wireframes/contato.png)
+![Wireframe de Contato](./Livraria/docs/wireframes/contato.png)
 
 
 # Estrutura do Projeto
