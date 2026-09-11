@@ -1,9 +1,17 @@
+/*
+Descricao: Exercícios da Aula 09 - Tipos de estilos, inline, interno e externo, box model
+nome_arquivo: estilo.css
+nome_exercicio: Atividade 09 - Tipos de estilos, inline, interno e externo, box model
+nome_aluno: Yasmin Bergamo Esposto
+email_aluno: yasmin.esposto@portalsesisp.org.br
+turma: TDE-1BHH-26
+*/
+
 .coluna-principal {
     width: 300px;
     height: 150px;
     padding: 20px;
     border: 1px solid #ba5add;
-     /* ... outras propriedades ... */
     margin: 10px auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
