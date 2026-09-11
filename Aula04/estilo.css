@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    color: rgb(147, 15, 147);
+}
+#descricao {
+    font-size: 24px;
+}
+.paragrafo-simples {
+    color: black;
+}
+nav a {
+    color: rgb(12, 114, 12); 
+    margin-right: 15px;
+}
