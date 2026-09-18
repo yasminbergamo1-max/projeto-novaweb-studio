@@ -1,0 +1,68 @@
+body {
+  background-color: #E6D9F2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #8E6BBE;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #2D1551;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.busca input {
+  padding: 8px;
+  width: 250px;
+}
+
+nav {
+  background-color: #8E6BBE;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.banner {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.banner h1 {
+  color: #2D1551;
+  font-size: 40px;
+}
+
+.banner p {
+  color: #8E6BBE;
+}
+
+.recursos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.recurso-item {
+  background-color: white;
+  padding: 60px;
+  width: 250px;
+}
+
+footer {
+  background-color: #8E6BBE;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
