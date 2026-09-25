@@ -1,0 +1,57 @@
+/*
+Descricao: Exercícios da Aula 08 - Alugramação e posicionamento com divs
+nome_arquivo: estilo.css
+nome_exercicio: Atividade 08 - Alugramação e posicionamento com divs
+nome_aluno: Yasmin Bergamo Esposto
+email_aluno: yasmin.esposto@portalsesisp.org.br
+turma: TDE-1BHH-26
+*/
+
+header {
+    background-color:rgb(63, 25, 99);
+    padding: 5px;
+    color: white;
+}
+
+header nav {
+    background-color: rgb(208, 187, 215);
+}
+header nav ul {
+    list-style: none;
+    position: relative;
+    height: 30px;
+    display: flex;
+}
+header nav ul li {
+    position: relative;
+    display: block;
+    margin: 10px;
+}
+
+main {
+    background-color: whitesmoke;
+}
+main table {
+    width: 400px;
+    border: 1px solid;
+}
+
+main table td, main table th {
+    border: 1px solid;
+}
+main table td img:hover {
+    width: 150px;
+}
+
+footer {
+    background-color: rgb(63, 25, 99);
+    color:rgb(245, 246, 248);
+    padding: 5px;
+    text-align: center;
+}
+
+.tabela {
+    width: 80%;
+    text-align: center;
+    margin: 15px auto;
+    }
