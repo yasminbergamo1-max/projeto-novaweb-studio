@@ -1,0 +1,62 @@
+/*
+Descricao: Exercícios da Aula 12 -  Introdução aos Formulários Web
+nome_arquivo: login.css
+nome_exercicio: Atividade 12 -  Introdução aos Formulários Web
+nome_aluno: Yasmin Bergamo Esposto
+email_aluno: yasmin.esposto@portalsesisp.org.br
+turma: TDE-1BHH-26
+*/ 
+
+body {
+    background-color: #8E6BBE;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+form {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #E6D9F2;
+    padding: 70px;
+    color: #2D1551;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #2D1551;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px 25px;
+    background-color: #FFF0A8;
+    color: #2D1551;
+    border: none;
+}
+
+a {
+    color: #2D1551;
+    text-align: none;
+}
+
+#mensegem {
+    text-align: center;
+}
