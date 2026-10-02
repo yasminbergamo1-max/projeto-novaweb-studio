@@ -20,4 +20,4 @@ if (email == "" || senha == "") {
     mensagem.innerHTML = "Login realizado com sucesso!";
 }
 
-});
+}); 
