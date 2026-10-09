@@ -105,68 +105,63 @@ turma: TDE-1BHH-26
     }
         }
 
-        const nascimento = document.querySelector('#nascimento'); 
-        // Limite de idade
-        const hoje = new Date(); 
-        const dataMaxima = hoje.toISOString().split('T')[0]; 
-        
-        const dataMinima = new Date(); 
-        dataMinima.setFullYear(dataMinima.getFullYear() - 120); 
-        const dataMinimaFormatada = dataMinima.toISOString().split('T')[0]; 
-        
-        nascimento.min = dataMinimaFormatada; 
-        nascimento.max = dataMaxima; 
-        
-        function mensagem() { 
-            const msg = document.querySelector('#mensagem'); 
-            const nome = document.querySelector('#nome').value.trim(); 
-            const cpf = document.querySelector('#cpf').value.replace(/\D/g, ''); 
-            const data = nascimento.value; 
-            const cidade = document.querySelector('#cidade').value; 
-            const sobre = document.querySelector('#sobre').value.trim(); 
-            const genero = document.querySelector('input[name="genero"]:checked'); 
-            const interesses = document.querySelectorAll('input[name="Interesses"]:checked'); 
-            msg.style.display = 'block'; 
-            msg.className = 'alert alert-danger'; 
-            if (nome === '') { 
-                msg.textContent = 'Preencha o campo Nome.'; 
-            } 
-            else if (data === '') { 
-                msg.textContent = 'Preencha a data de nascimento.'; 
-            } 
-            else if (data < dataMinimaFormatada || data > dataMaxima) { msg.textContent = 'A data deve estar entre hoje e 120 anos atrás.'; 
+        const nascimento = document.querySelector('#nascimento');
 
-            } 
-            else if (cpf.length !== 11) { 
-                msg.textContent = 'CPF inválido. Deve conter 11 números.'; 
-            } 
-            else if (!genero) { 
-                msg.textContent = 'Selecione uma opção de gênero.'; 
-            } 
-            else if (interesses.length === 0) { 
-                msg.textContent = 'Selecione pelo menos um interesse.'; 
-            } 
-            else if (cidade === '') { 
-                msg.textContent = 'Selecione seu nível escolar.'; 
-            } 
-            else if (sobre === '') { 
-                msg.textContent = 'Preencha o campo Sobre Mim.'; 
-            } 
-            else { 
-                msg.className = 'alert alert-success'; 
-                msg.textContent = 'Perfil salvo com sucesso!'; 
-            } 
-        } 
-        
-        function validaCPF() { 
-            const cpf = document.querySelector('#cpf').value.replace(/\D/g, ''); 
-            const msg = document.querySelector('#mensagem'); 
-            if (cpf !== '' && cpf.length !== 11) { 
-                msg.style.display = 'block'; msg.className = 'alert alert-danger'; 
-                msg.textContent = 'CPF inválido. Deve conter 11 números.'; 
-            } 
+    const hoje = new Date();
+    const dataMaxima = hoje.toISOString().split('T')[0];
+
+    const dataMinima = new Date();
+    dataMinima.setFullYear(dataMinima.getFullYear() - 120);
+    const dataMinimaFormatada = dataMinima.toISOString().split('T')[0];
+
+    nascimento.min = dataMinimaFormatada;
+    nascimento.max = dataMaxima;
+
+    function mensagem() {
+        const msg = document.querySelector('#mensagem');
+        const nome = document.querySelector('#nome').value.trim();
+        const cpf = document.querySelector('#cpf').value.replace(/\D/g, '');
+        const data = nascimento.value;
+        const nivel = document.querySelector('#nivel').value;
+        const sobre = document.querySelector('#sobre').value.trim();
+        const genero = document.querySelector('input[name="genero"]:checked');
+        const interesses = document.querySelectorAll('input[name="Interesses"]:checked');
+
+        msg.style.display = 'block';
+        msg.className = 'alert alert-danger';
+
+        if (nome === '') {
+            msg.textContent = 'Preencha o campo Nome.';
+        } else if (data === '') {
+            msg.textContent = 'Preencha a data de nascimento.';
+        } else if (data < dataMinimaFormatada || data > dataMaxima) {
+            msg.textContent = 'A data de nascimento é inválida.';
+        } else if (cpf.length !== 11) {
+            msg.textContent = 'CPF inválido. Deve conter 11 números.';
+        } else if (!genero) {
+            msg.textContent = 'Selecione uma opção de gênero.';
+        } else if (interesses.length === 0) {
+            msg.textContent = 'Selecione pelo menos um interesse.';
+        } else if (nivel === '') {
+            msg.textContent = 'Selecione seu nível escolar.';
+        } else if (sobre === '') {
+            msg.textContent = 'Preencha o campo Sobre Mim.';
+        } else {
+            msg.className = 'alert alert-success';
+            msg.textContent = 'Perfil salvo com sucesso!';
         }
+    }
 
+    function validaCPF() {
+        const cpf = document.querySelector('#cpf').value.replace(/\D/g, '');
+        const msg = document.querySelector('#mensagem');
+
+        if (cpf !== '' && cpf.length !== 11) {
+            msg.style.display = 'block';
+            msg.className = 'alert alert-danger';
+            msg.textContent = 'CPF inválido. Deve conter 11 números.';
+        }
+    }
     </script>
 </body>
 </html>
