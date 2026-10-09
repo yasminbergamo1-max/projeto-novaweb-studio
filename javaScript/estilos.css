@@ -1,6 +1,15 @@
+/*
+Descricao: Exercícios da Aula 13 - Elementos Avançados de Formulário
+nome_arquivo: estilos.css
+nome_exercicio: Atividade 13 - Elementos Avançados de Formulário
+nome_aluno: Yasmin Bergamo Esposto
+email_aluno: yasmin.esposto@portalsesisp.org.br
+turma: TDE-1BHH-26
+*/
+
 body {
-    margin: 5px;
-    background-color: rgb(183, 110, 183);
+    font-family: Arial, sans-serif;
+    background-color: rgb(159, 89, 159);
 }
 
 .container {
@@ -10,3 +19,37 @@ body {
     align-items: center;
     background-color: white;
 }
+
+header {
+    background-color: #cb91d2; 
+    color: white; 
+    text-align: center; 
+    padding: 15px;
+}
+
+main {
+    background-color: white; 
+    width: 500px; 
+    margin: 30px auto; 
+    padding: 20px;
+}
+
+img {
+    display: block; 
+    margin: 10px auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+button { 
+    background-color: #cb91d2; 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    width: 100%; 
+}
+
+
+
