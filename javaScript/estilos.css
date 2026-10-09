@@ -12,7 +12,7 @@ body {
     background-color: rgb(159, 89, 159);
 }
 
-.container {
+.container { 
     width: 100%;
     height: 100%;
     justify-content: center;
