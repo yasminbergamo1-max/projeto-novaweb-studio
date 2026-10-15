@@ -6,3 +6,73 @@ nome_aluno: Yasmin Bergamo Esposto
 email_aluno: yasmin.esposto@portalsesisp.org.br
 turma: TDE-1BHH-26
 */
+
+body {
+    background-color: #E6D9F2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    background-color: #8E6BBE;
+    color: #2D1551;
+    text-align: center;
+    padding: 20px;
+    margin: 0 0 30px;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #2D1551;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 5px 0;
+    border: 1px solid #8E6BBE;
+    font-family: Arial, sans-serif;
+}
+
+input:focus {
+    outline: 2px solid #8E6BBE;
+}
+
+input:disabled {
+    background-color: #E6D9F2;
+    color: #555;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+button {
+    background-color: #FFF0A8;
+    color: #2D1551;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FAECA5;
+}
