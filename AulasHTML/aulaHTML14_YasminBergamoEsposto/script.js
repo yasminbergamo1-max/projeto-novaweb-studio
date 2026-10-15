@@ -16,4 +16,4 @@ function habilitar(id) {
     campo.onblur = function() {
         campo.disabled = true;
     };
-}
+} 
