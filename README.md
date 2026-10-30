@@ -81,3 +81,98 @@ O cabeçalho da tabela deve possuir destaque visual para facilitar a identifica�
 * Tabela com os principais dados dos usuários.
 * Botões para visualizar, editar ou excluir registros.
 * Paginação para navegar entre os resultados.
+
+
+# Bergaz
+
+## Situação de Aprendizagem 02
+
+# Descrição do Projeto
+
+A Bergaz é uma livraria virtual, com o objetivo de organizar e facilitar o acesso às informações dos usuários. O sistema contará com uma interface simples e intuitiva, desenvolvida para computadores e dispositivos móveis.
+
+# Objetivo
+
+Desenvolver a interface de um sistema corporativo que permita realizar o login, visualizar e consultar informações dos usuários de forma organizada, prática e segura.
+
+# Escopo
+
+O projeto contempla o planejamento e a criação de um protótipo de alta fidelidade no Figma, com três telas principais:
+
+**Login:** permite o acesso ao sistema por meio de e-mail e senha.
+**Perfil do Usuário:** apresenta as informações pessoais e os dados da conta.
+**Consulta de Dados:** permite pesquisar e visualizar informações organizadas em uma tabela.
+
+As três telas serão desenvolvidas em versões Desktop e Mobile, garantindo uma interface adaptada a diferentes dispositivos.
+
+O projeto também inclui o planejamento dos recursos, a organização das atividades no Trello, a criação do protótipo de alta fidelidade no Figma e a preparação da estrutura HTML.
+
+# Requisitos Funcionais
+
+- Permitir que o usuário realize login com e-mail e senha.
+- Permitir a visualização das informações do perfil do usuário.
+- Permitir a edição das informações pessoais do usuário.
+- Permitir a consulta de dados por meio de uma tabela.
+- Disponibilizar um campo de pesquisa para localizar informações.
+- Permitir a navegação entre as telas do sistema.
+- Permitir que o usuário visualize as informações de sua conta.
+
+# Requisitos Não Funcionais
+
+- A interface deve ser simples e fácil de utilizar.
+- O sistema deve ser adaptável para Desktop e Mobile.
+- As informações do usuário devem ser protegidas.
+- As telas devem apresentar uma organização visual padronizada.
+- O sistema deve apresentar boa legibilidade e acessibilidade.
+- As páginas devem ter um carregamento adequado.
+- A navegação deve ser clara e intuitiva.
+
+## Matriz de Recursos Humanos
+
+| Profissional                  | Responsabilidades                                      |
+| ----------------------------- | ------------------------------------------------------ |
+| **Gerente de Projeto**        | Organizar atividades e acompanhar o cronograma         |
+| **Analista de Sistemas**      | Identificar requisitos e funcionalidades do sistema    |
+| **Designer UI/UX**            | Criar interfaces e protótipos das telas no Figma       |
+| **Desenvolvedor Front-end**   | Desenvolver a parte visual do site com HTML e CSS      |
+| **Desenvolvedor Back-end**    | Desenvolver a lógica e as funcionalidades do sistema   |
+| **DBA**                       | Organizar e gerenciar o banco de dados                 |
+| **Analista de Testes**        | Testar o sistema e identificar possíveis erros         |
+
+
+# Matriz de Recursos Materiais
+
+| Recurso                         | Finalidade                                      |
+| ------------------------------- | ----------------------------------------------- |
+| **Computador**                  | Desenvolver e organizar o projeto               |
+| **Internet**                    | Acessar plataformas e realizar pesquisas        |
+| **Figma**                       | Criar os protótipos das telas                   |
+| **Trello**                      | Organizar tarefas e acompanhar o cronograma     |
+| **Visual Studio Code**          | Criar e editar os arquivos do site              |
+| **GitHub**                      | Armazenar e compartilhar os arquivos do projeto |
+| **Otimizador de imagens**       | Reduzir o tamanho das imagens utilizadas        |
+
+
+# Cronograma do Projeto Bergaz
+
+O cronograma foi organizado de acordo com as atividades planejadas no Trello, considerando as etapas de Backlog, A Fazer, 
+Em Andamento, Review e Concluído.
+
+| Etapa                     | Atividade                          | Status         |
+| ------------------------- | ---------------------------------- | -------------- |
+| **1. Planejamento**       | Levantamento dos requisitos        | Concluído      |
+| **2. Planejamento**       | Planejamento dos recursos          | Concluído      |
+| **3. Design**             | Estruturação das telas             | Concluído      |
+| **4. Design**             | Criação do protótipo no Figma      | Concluído      |
+| **5. Desenvolvimento**    | Configuração da navegação          | A Fazer        |
+| **6. Testes**             | Validação do protótipo             | Backlog        |
+| **7. Otimização**         | Ajustes e otimização do projeto    | Backlog        |
+| **8. Desenvolvimento**    | Desenvolvimento da estrutura HTML  | Backlog        |
+| **9. Documentação**       | Documentação e GitHub              | Em Andamento   |
+
+### Fluxo de desenvolvimento
+
+**Backlog → A Fazer → Em Andamento → Review → Concluído**
+
+# Wireframes
+[Visualizar todas as telas no Figma](https://www.figma.com/design/rnqTJ5z2bWhyrNlNhpgriq/Sem-t%C3%ADtulo?node-id=21-16)
