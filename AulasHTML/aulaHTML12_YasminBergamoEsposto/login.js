@@ -18,6 +18,10 @@ if (email == "" || senha == "") {
     mensagem.innerHTML = "Preencha todos os campos.";
 } else {
     mensagem.innerHTML = "Login realizado com sucesso!";
+
+    setTimeout(function() {
+        window.location.href = "file:///C:/Users/49071105881/novaweb-projeto-inicial/Livraria/index.html";
+    }, 2000);
 }
 
-}); 
+});

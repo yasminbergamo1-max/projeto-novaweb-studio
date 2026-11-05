@@ -75,10 +75,16 @@ footer {
 }
 
 .produtos-grid {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 25px;
     padding: 35px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .card {
